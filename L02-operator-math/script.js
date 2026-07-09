@@ -60,9 +60,9 @@ console.log(b);
 // task2 - find the 10 to the power 3.5
 // approach 1 -> not possible 
 // approach 2
-let c = 10**3.5;
-console.log(c);
+// let c = 10**3.5;
+// console.log(c);
 
 
-let d = 8**3.5
-console.log(d);
+// let d = 8**3.5
+// console.log(d);
