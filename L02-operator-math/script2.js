@@ -158,8 +158,8 @@
 
 
 // parseInt() -> convert the number from other format like string to integer.
-console.log(parseInt("123")); // 123 
-console.log(parseInt(3.23)); //3
+// console.log(parseInt("123")); // 123 
+// console.log(parseInt(3.23)); //3
 
-console.log(parseInt("123a")); // 123 
-console.log(parseInt("abc123")) //NAN
+// console.log(parseInt("123a")); // 123 
+// console.log(parseInt("abc123")) //NAN

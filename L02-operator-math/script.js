@@ -6,7 +6,7 @@
 
 // let a = 10/5;
 // console.log(2); //2 
-
+ 
 // let a = 5%2;
 // console.log(a);  // 1
 
@@ -50,12 +50,12 @@
 
 //task1- find the 10 to the power 3
 // approach 1
-let a = 10*10*10;
-console.log(a);
+// let a = 10*10*10;
+// console.log(a);
 
 // approach 2- use exponent
-let b =10**3;
-console.log(b);
+// let b =10**3;
+// console.log(b);
 
 // task2 - find the 10 to the power 3.5
 // approach 1 -> not possible 
