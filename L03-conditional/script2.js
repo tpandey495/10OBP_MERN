@@ -260,8 +260,79 @@
 
 
 // given three variable storing number compare them and print the largest one 
-let a =1,b=2,c=3;
+// let a =1,b=2,c=3;
 // if else
 // ternary 
 
-console.log("A">"a");
+// console.log("A">"a");
+
+
+//use switch case
+// marks>90 -> print grade A
+// marks>70 -> print grade B
+// marks>=50 -> print grade C
+// marks<50-> print fail
+
+// let marks = 95;
+// switch(true){
+//     case marks>90:
+//         console.log("Grade A");
+//         break;
+//     case marks>70:
+//         console.log("Grade B");
+//         break;
+//     case marks>=50:
+//         console.log("Grade C");
+//         break;
+//     default:
+//         console.log("fail");
+// }
+
+
+
+// rewrite this code using switch operator
+
+// if(age>18){
+//     if(dl==true){
+//         console.log("eligible to drive");
+//     }
+//     else{
+//         console.log("not elieble to drive");
+//     }
+// }
+// else{
+//     console.log("not eligible to drive");
+// }
+
+let age = 19, dl = false;
+
+switch (true) {
+    case age > 18 && dl == true:
+        console.log("eligible to drive");
+        break;
+    default:
+        console.log("Not eligible to drive");
+}
+
+// print quarter 1 - if   4 <= months <=6
+// quarter 2 - if   7<=months <=9
+// quareter 3 - if  10<=months<=12
+// quarter 4- if 1<=months<=3
+
+let months = 5;
+switch (true) {
+    case 4 <= months && months <= 6:
+        console.log("quarter 1");
+        break;
+    case 7 <= months && months <= 9:
+        console.log("quarter 2");
+        break;
+    case 10 <= months && months <= 12:
+        console.log("quarter 3");
+        break;
+    case 1 <= months && months <= 3:
+        console.log("quarter 4");
+        break;
+    default:
+        console.log("not valid month");
+}
