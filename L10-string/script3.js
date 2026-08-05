@@ -125,6 +125,164 @@ let mid = (str.length%2==0)?str.length/2-1:Math.floor(str.length/2);
 console.log(str.slice(0,mid)+str[mid].toUpperCase()+str.slice(mid+1));
 
 
+// replace(searchValue,replaceWith) ->
+// return new string after replace first 
+// occureance of the search value with replacewith
+
+// let str = "validate";
+// console.log(str.replace('l','e'));
+
+// let str = "Hello world!";
+// console.log(str.replace("Hello","world"));
+
+// replaceAll 
+// let str = "Hello world! Hello";
+// console.log(str.replaceAll("Hello","world"));
+
+// let str = "Hello";
+// console.log(str.replaceAll("l","g"));
+
+//  given a string split the string in to array of words 
+// let str = "this world is so much polluted";
+// res = ["this","world","is","so","much","polluted"];
+
+
+//split(seperator,limit) -> limit-> 
+// Split a string into substrings using the 
+// specified separator and return them as an array.
+
+// let str="check";
+// let result = str.split('');
+// console.log(result); //
+
+
+//split(seperator,limit) -> 
+// Split a string into substrings using the 
+// specified separator and return them as an array.
+
+//limit-> limit the no of element return in the array
+
+// let str="check";
+// let result = str.split('');
+// console.log(result); [ 'c', 'h', 'e', 'c', 'k' ]
+
+// let str = "this world is so much polluted";
+// // res = ["this","world","is","so","much","polluted"];
+// let res=str.split(" ");
+// console.log(res);
+
+// given a string find no of space 
+// let str = "this world is so much polluted ";
+
+// function countSpace(str){
+//     let count=0;
+//     let res=str.split("");
+//     for(let i =0;i<res.length;i++){
+//         if(res[i]==' ')
+//             count++;
+//     }
+//     return count;
+// }
+
+
+// console.log(countSpace(str));
+
+
+// print first two words of the string 
+// let str = "this world is so much polluted ";
+// console.log(str.split(" ",2));
+
+// reverse the string 
+// let str = "this world is so much polluted ";
+//     // polluted much so is world this
+//  let words = str.split(" ");
+
+//  let rev = words[words.length-1];
+//  for(let i=words.length-2;i>=0;i--){
+//     rev += " "+words[i];
+//  }
+
+// console.log(rev);
+
+
+// join(separator)  -> converted array in to string 
+// and joined based on seperator
+// default seperattor  is comma
+
+// let res= ["Hello","is","this","Abhishek"];
+// console.log(res.join());
+
+// let res= ["Hello","is","this","Abhishek"];
+// console.log(res.join(" "));
+
+
+// reverse the string 
+// let str = "this world is so much polluted";
+// // polluted much so is world this
+// let words = str.split(" ");
+// words.reverse();
+// console.log(words.join(" "));
+
+
+// trim -> trim the space from beginning and end from a string 
+
+// let str = " check ";
+// console.log(str.trim());
+
+// trimStart() -> remove the space from start of the string 
+// let str =" check "
+// console.log(str.trimStart());
+
+// trimEnd() -> remove the space from the last 
+
+// let str = " check ";
+// console.log(str.trimEnd()); 
+
+// padStart(targetLength,padString) -> 
+// add pad string in the start of  string untill
+// it is  equal to target length
+// let str = "check";
+// console.log(str.padStart(8,"a")); // aaacheck
+
+// let str = "check";
+// console.log(str.padStart(10,"aa")); //aaaaacheck 
+
+
+// padEnd(tartgetLength,padString) ->
+//  if the targetlength is smaller than the string length no character is added. 
+// let str = "eck";
+// console.log(str.padEnd(1,"ing")); //eck
+
+// console.log(str.padEnd(5,"ing")); //eckin
+
+
+// ASCII code -> American code for information interchange (0-127)
+// digit(0,9) -> 48 - 57
+// alphabets(A-Z) -> 65 - 90
+// alphabets(a-z) -> 97 - 122
+// symbols() -> 
+// control() ->
+
+// a- 97
+// b- 98
+// d- 100
+
+// A- 65
+// B- 66
+// C- 67
+
+// a-97
+// b-98
+// c-99
+// d-100
+// e-101
+// f-102
+// g-103
+// - charCodeAt() , fromCharCode()
+// console.log("A".charCodeAt()); // 65
+// console.log("g".charCodeAt()); //103
+
+
 
 
 
