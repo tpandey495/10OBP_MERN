@@ -267,7 +267,7 @@ console.log(str.slice(0,mid)+str[mid].toUpperCase()+str.slice(mid+1));
 // b- 98
 // d- 100
 
-// A- 65
+// A- `65`
 // B- 66
 // C- 67
 
