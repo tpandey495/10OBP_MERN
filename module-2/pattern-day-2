@@ -1,0 +1,108 @@
+// *****
+// ***
+// *
+
+// let n=7;
+// for(let row=1;row<=n;row++){
+//     let str="";
+//     for(let col=1;col<=2*(n-row+1)-1;col++){
+//        str+="*";
+//     }
+//     console.log(str);
+// }
+
+
+//       *
+//     *** 
+//   *****
+// *******
+
+// let n=3;
+// for(let row=1;row<=n;row++){
+//      let str="";
+//     // space printing logic 
+//     for(let col=1;col<=2*(n-row+1)-2;col++)
+//       str+=" ";
+//     // start pritning 
+//     for(let col=1;col<=2*row-1;col++)
+//         str+="*";
+//     console.log(str);
+// }
+
+// print this pattern
+// ******
+//   ****
+//     **
+
+// let n=4;
+// for(let row=1;row<=n;row++){
+//     // space 
+//     let str="";
+//     for(let col=1;col<=2*row-2;col++)
+//       str+=" ";
+//     // star
+//     for(let col=1;col<=2*(n-row+1);col++)
+//        str+="*";
+//     console.log(str);
+// }
+
+
+// H.w
+// *****
+//   ***
+//     *
+
+
+// 1
+// 12
+// 123
+// 1234
+
+// let n=4;
+// for(let row=1;row<=n;row++){
+//     let count="";
+//     for(let col=1;col<=row;col++){
+//        count+=col;
+//     }
+//     console.log(count);
+// }
+
+// A
+// AB
+// ABC
+// ABCD
+
+// let n=4;
+// for(let row=1;row<=n;row++){
+//    let str="";
+//    for(let col=1;col<=row;col++){
+//        str+=String.fromCharCode(65+col-1)   
+//    }
+//    console.log(str);
+// } 
+
+ 
+
+
+ let n=4;
+
+ for(let row=1;row<=n;row++){
+    let str="";
+    for(let col=1;col<=n-row;col++){
+       str+=" ";
+    }
+    for(let col=1;col<=2*row-1;col++){
+      str+="*";
+    }
+    console.log(str);
+ }
+
+
+
+
+
+
+
+
+
+
