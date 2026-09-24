@@ -244,3 +244,15 @@ let transformedData = students.filter((student)=>student.age>20);
 console.log(transformedData);
 
 
+
+
+let arr = [4,5,6];
+
+function callback(accum,curr){
+    console.log(accum,curr);
+    return curr+accum;
+}
+
+let finalValue = arr.reduce(callback,0);
+
+console.log(finalValue);
